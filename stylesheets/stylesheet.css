@@ -1,0 +1,40 @@
+p {
+  font-size: 20px;
+  font-style:"Arial";
+  color:white;
+}
+h1 {
+  font-family: "Arial";
+  color:white;
+  font-size: 50px;
+}
+a {
+  font-family: "Arial";
+  color:white;
+  font-size: 30px;
+}
+a:hover {
+  text-decoration: underline;
+  font-family: "Arial";
+  color:blue;
+}
+body {background-color: #B22222;
+      margin: 0;}
+footer {font-family: "Arial";
+  color:white;}
+ul {list-style-type: none;
+      margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #D3D3D3;}
+li a {display: block;
+      color: black;
+      padding: 8px 0 8px 16px;
+      text-decoration: none;}
+li a.active {background-color: #FF0000;
+       color: white;}
+li a:hover:not(.active) {background-color: #B22222;
+       color: white;}
